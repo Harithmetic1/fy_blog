@@ -1,0 +1,24 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import CustomImage from "../components/CustomImage.astro";
+const { frontmatter } = Astro.props;
+
+const { post } = Astro.props;
+---
+
+<!-- <BaseLayout title={frontmatter.title}> -->
+<h1>{frontmatter.title}</h1>
+<p class="blog-layout-name">
+  👨🏽‍💻 by {frontmatter.author} on {frontmatter.pubDate}
+</p>
+<p><em>{frontmatter.description}</em></p>
+<img
+  src={frontmatter.image.url}
+  class="blog-image"
+  width="300"
+  alt={frontmatter.image.alt}
+/>
+<div class="blog-style">
+  <slot />
+</div>
+<!-- </BaseLayout> -->

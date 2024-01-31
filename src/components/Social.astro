@@ -1,0 +1,28 @@
+---
+const { platform, username } = Astro.props;
+
+import GitHubLogo from "../images/GithubLogo.svg";
+import TwitterLogo from "../images/TwitterLogo.svg";
+import InstagramLogo from "../images/InstagramLogo.svg";
+import LinkedinLogo from "../images/LinkedinLogo.svg";
+import { Image } from "astro:assets";
+
+const logos = {
+  github: GitHubLogo,
+  twitter: TwitterLogo,
+  instagram: InstagramLogo,
+  linkedin: LinkedinLogo,
+};
+---
+
+<a href={`https://www.${platform}.com/${username}`} target="_blank">
+  <Image src={logos[platform]} alt={`${platform} logo`} />
+</a>
+
+<style>
+  a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+</style>

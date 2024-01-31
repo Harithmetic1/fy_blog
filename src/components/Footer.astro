@@ -1,0 +1,34 @@
+---
+import Social from "./Social.astro";
+const platform = "github";
+const username = "harithmetic1";
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    border-top: 1px solid gray;
+  }
+</style>
+
+<footer>
+  <div class="email">
+    <h1>Reach me</h1>
+  </div>
+  <div class="social-logo-container">
+    <div class="social-logos">
+      <Social platform="twitter" username="harithOnigemo" />
+      <Social platform="github" username="harithmetic1" />
+      <Social platform="linkedin" username="in/harith-onigemo/" />
+      <Social platform="instagram" username="tosin_igx" />
+    </div>
+
+    <div>
+      <p>
+        <a href="mailto:ho272@live.mdx.ac.uk">ho272@live.mdx.ac.uk</a>
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,30 @@
+---
+import { Image } from "astro:assets";
+
+import defaultImg from "../images/image_thumbnail.png";
+
+const { thumbnail, postTitle, postDate, postDescription, link } = Astro.props;
+
+const thumbnailImg = thumbnail || defaultImg;
+---
+
+<div class="blog-card">
+  <a href={link} class="post-thumbnail">
+    <img src={thumbnailImg} alt={postTitle} />
+  </a>
+  <div class="post-content">
+    <h2 class="post-title">
+      <a href={link}>{postTitle}</a>
+    </h2>
+    <div class="post-meta">
+      <p>
+        👨🏽‍💻 by Harith Onigemo <span class="post-date"
+          >Published: {postDate.slice(0, 10)}</span
+        >
+      </p>
+    </div>
+    <div class="post-description">
+      {postDescription}
+    </div>
+  </div>
+</div>

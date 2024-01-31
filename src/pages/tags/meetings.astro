@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SupervisorMeetingsCard from "../../components/SupervisorMeetingsCard.astro";
+
+import { getCollection } from "astro:content";
+
+let meetingPosts = await getCollection("meetings");
+
+meetingPosts = meetingPosts.sort((a, b) => {
+  return (
+    new Date(a.data.pubDate).getTime() - new Date(b.data.pubDate).getTime()
+  );
+});
+
+// export async function getStaticPaths() {
+//   const allPosts = await getCollection("posts");
+
+//   // const uniqueTags = [
+//   //   ...new Set(allPosts.map((post) => post.data.tags).flat()),
+//   // ];
+
+//   return allPosts.map((entry) => {
+//     // const filteredPosts = allPosts.filter((post) =>
+//     //   post.data.tags.includes(tag)
+//     // );
+
+//     return {
+//       params: { tag: entry.slug },
+//       props: { entry },
+//     };
+//   });
+// }
+
+const { tag } = Astro.params;
+const { entry } = Astro.props;
+---
+
+<BaseLayout title="Meetings">
+  {
+    meetingPosts.map((post) => {
+      return <SupervisorMeetingsCard post={post} />;
+    })
+  }
+</BaseLayout>

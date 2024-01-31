@@ -1,0 +1,22 @@
+---
+import "../styles/global.css";
+
+import blogImg from "../images/blog_icon.svg";
+import { Image } from "astro:assets";
+---
+
+<header>
+  <nav>
+    <div class="links">
+      <a href="/">Home</a>
+      <a href="https://harith-onigemo.netlify.app/" target="_blank">Portfolio</a
+      >
+      <a href="/tags/meetings">Meetings with Supervisor</a>
+    </div>
+  </nav>
+
+  <div class="header-with-name">
+    <h1>My Blog</h1>
+    <Image src={blogImg} alt="Blog image" width={50} height={50} />
+  </div>
+</header>

@@ -1,0 +1,10 @@
+author: Harith Onigemo
+description: Testing yaml metadata dynamic entry
+image:
+  alt: default image
+  url: ../../images/image_thumbnail.png
+layout: ../../layouts/MarkdownPostLayout.astro
+pubDate: '2024-01-18'
+tags:
+- project
+title: Week 1

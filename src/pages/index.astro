@@ -1,19 +1,40 @@
 ---
+import BlogCards from "../components/BlogCards.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
+import { getCollection } from "astro:content";
+
+import imgThumbnail from "../images/image_thumbnail.png";
+
+const allPosts = await getCollection("posts");
+
+const pageTitle = "Home Page";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-    <h1>My Astro Site</h1>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p class="home-subtitle">
+    This blog is made specifically for my Final year project at Middlesex
+    University Dubai: An AI Automated Waste Recycling Bin. ♻️ 🎓
+  </p>
+
+  <p>
+    Hello, my name is Harith Onigemo. This is my blog. It is built with Astro
+    and deployed via Vercel. I am a Software Engineer and a third-year student
+    at Middlesex University Dubai, studying Computer Systems Engineering. I like
+    to learn new technologies and build cool projects like this blog.
+  </p>
+
+  <div class="blogCard-container">
+    {
+      allPosts.map((post) => (
+        <BlogCards
+          thumbnail={post.data.image?.url}
+          postTitle={post.data.title}
+          postDate={post.data.pubDate}
+          postDescription={post.data.description}
+          link={`/posts/${post?.slug}`}
+        />
+      ))
+    }
+  </div>
+</BaseLayout>
