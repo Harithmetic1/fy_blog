@@ -16,7 +16,7 @@ html {
     width: 100vw;
     max-width: 90vw;
     padding: 1rem;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 1.5;
     color: white;
   }
@@ -117,14 +117,46 @@ header{
   font-size: 32px;
 }
 
-.home-subtitle{
-  font-size: 20px;
+.introduction{
+  font-size: 16px;
   font-weight: 400;
   line-height: 129.023%; /* 25.805px */
   letter-spacing: -1.5px;
   text-align: center;
   margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
+
+.introduction img{
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.introduction .profile-img{
+  width: 50%;
+}
+
+.profile-text{
+  width: 100%;
+}
+
+.home-subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 129.023%; /* 25.805px */
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin-top: 0;
+  border-top: 1px solid white;
+  padding-top: 1rem;
+}
+
 
 .post-thumbnail{
   width: 90vw;
@@ -232,6 +264,17 @@ footer .social-logo-container{
     background: none;
   }
 
+  .profile-text{
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .home-subtitle{
+    text-align: center;
+    font-size: 20px;
+  }
+
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
@@ -272,6 +315,10 @@ footer .social-logo-container{
   overflow-x: scroll;
   width: 80%;
   display: table;
+}
+
+.blog-style a{
+  color: #ff9776;
 }
 
 .blog-style img{

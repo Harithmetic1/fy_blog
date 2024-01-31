@@ -30,7 +30,8 @@ involvement, Experiments on Animals, etc.
 Mr Roshan then explained the task for the week by introducing us to a
 first-cut proposal template. We had to fill out the template with the
 aim, objectives, and project scope to explain our project to our
-supervisors better.
+supervisors better. You can find the link to my first cut proposal
+[here](https://drive.google.com/file/d/1huQcrq7mzp6599PTvF5gqBaeJM935-I6/view?usp=sharing).
 
 After the class, Mr Roshan sent our assigned supervisors to our emails
 and instructed us to email them for a first meeting. You can check my
