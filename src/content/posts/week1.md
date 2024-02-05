@@ -1,16 +1,17 @@
 ---
 author: Harith Onigemo
-description: Week 1 blog, I talked about what we did in class and my
+description: Week 13 blog, I talked about what we did in class and my
   project update.
 image:
-  alt: "`<a href=\"https://www.freepik.com/free-vector/product-tour-concept-illustration_7118383.htm#query=Intro&position=22&from_view=search&track=sph&uuid=a8e5ff6e-cc10-40ab-9de9-3e52b6fba6e3\">`{=html}Image
-    by storyset`</a>`{=html} on Freepik"
+  alt:
+    '`<a href="https://www.freepik.com/free-vector/product-tour-concept-illustration_7118383.htm#query=Intro&position=22&from_view=search&track=sph&uuid=a8e5ff6e-cc10-40ab-9de9-3e52b6fba6e3">`{=html}Image
+    by storyset`</a>`{=html} on Freepik'
   url: /intro.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
 pubDate: January 31, 2024
 tags:
-- home
-title: Week 1- Intro Week
+  - home
+title: Week 13- Intro Week
 ---
 
 # Introduction
