@@ -28,7 +28,7 @@ my project and view my Gantt Chart in my Final Proposal
 
 Also take a look at my Work Breakdown structure below:
 
-![Work Breakdown Structure](./public/week14/media/image1.png)
+![Work Breakdown Structure](../../img/wbs.png)
 
 # Reflection
 
