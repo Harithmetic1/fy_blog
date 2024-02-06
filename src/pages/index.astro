@@ -6,7 +6,13 @@ import { getCollection } from "astro:content";
 
 import imgThumbnail from "../images/image_thumbnail.png";
 
-const allPosts = await getCollection("posts");
+let allPosts = await getCollection("posts");
+
+allPosts = allPosts.sort((a, b) => {
+  return (
+    new Date(a.data.pubDate).getTime() - new Date(b.data.pubDate).getTime()
+  );
+});
 
 const pageTitle = "Home Page";
 ---
