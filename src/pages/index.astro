@@ -38,14 +38,14 @@ const pageTitle = "Home Page";
   </div>
   <p class="home-subtitle">
     Join me on the exciting journey of developing my Final Year Project: <br />
-    AI Automated Waste Recycling Bin. ♻️ 🎓
+    SpinBin an AI Automated Waste Recycling Bin. ♻️ 🎓
   </p>
 
   <div class="blogCard-container">
     {
       allPosts.map((post) => (
         <BlogCards
-          thumbnail={post.data.image?.url}
+          thumbnail={post.data.image?.url || imgThumbnail}
           postTitle={post.data.title}
           postDate={post.data.pubDate}
           postDescription={post.data.description}

@@ -7,7 +7,7 @@ image:
   alt: Work Breakdown Structure for week 14
   url: /wbs.png
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: February 06, 2024
+pubDate: January 31, 2024
 tags:
   - home
 title: Week 14
@@ -24,7 +24,7 @@ My project targets harmful waste classes such as Plastic and Metal cans,
 according to The Alliance, 2021. Only 15% of plastic is recycled. This
 serves as a massive problem if left unchecked. You can read more about
 my project and view my Gantt Chart in my Final Proposal
-[here](https://drive.google.com/file/d/1GnsYqk4kHEB3t5XB9mV1vFehSwlkAUzh/view?usp=sharing).
+[here](https://drive.google.com/file/d/1yHoRxjNawU-gQ8ghA0o-MuM17-wjUbTj/view?usp=drive_link).
 
 Also take a look at my Work Breakdown structure below:
 
