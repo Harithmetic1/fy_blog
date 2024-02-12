@@ -1,8 +1,8 @@
 ---
 author: Harith Onigemo
-description: Week 15 blog, we had two amazing sessions on referencing and
+description: Week 15 blog, we had two amazing sessions on referncing and
   Literature Reviews, the sessions were very insightful. Read about what
-  I learnt during the sessions.
+  i learnt during the sessions.
 image:
   alt: 'Photo by
     `<a href="https://unsplash.com/@andrewtneel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">`{=html}Andrew
@@ -10,7 +10,7 @@ image:
     `<a href="https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">`{=html}Unsplash`</a>`{=html}'
   url: /academic_writing.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: February 06, 2024
+pubDate: February 13, 2024
 tags:
   - home
 title: Week 15
@@ -20,7 +20,7 @@ This week, we had a session with the assistant library manager, Ms.
 Laura Barber, and Ms. Siobhan Mcniff from the Center of Academic Success
 on different topics that will help us with academic writing. Ms. Laura
 Barber gave an insightful session on referencing and citing correctly
-using the Harvard Referencing Architecture. We had a fun Kahoot! game
+using the Harvard Referencing Architecture. We had a fun Kahoot! A game
 that made me realise that my knowledge of referencing and citations was
 limited.
 
@@ -35,12 +35,12 @@ references accurate.
 
 After Ms. Laura left, Mrs. Siobhan came in and started her session on
 Literature Reviews. She explained the Literature Review as a medium to
-show our readers that we understand the extent of the published work
-surrounding the topic we are talking about. Moving on, she introduced
-some tools we could use to write good Literature Reviews. Some of these
-tools were researching keywords on our project, creating a synthesis
-table, and using Point Evidence and Explanation (PEE) paragraphs in our
-Literature reviews.
+show our readers that we fully understand the published work surrounding
+the topic we are talking about. Moving on, she introduced some tools we
+could use to write good Literature Reviews. Some of these tools were
+researching keywords on our project, creating a synthesis table, and
+using Point Evidence and Explanation (PEE) paragraphs in our Literature
+reviews.
 
 Here is a draft of the key themes and words I plan on using for my
 Literature review:
@@ -122,10 +122,10 @@ literature review using the points from the two sessions we had.
 
 # Reflection
 
-This week, I started working on my literature review and exploring
+This week, I started working on my literature review and explored
 concepts on recycling, Circular Economies, and the recycling industry. I
-also started working on exploring waste classifier models online and
-using an ESP32 WIFI + Camera module to take pictures of different waste
-classes. So far, the online models I have found are less accurate than I
-want them to be. I will start researching how to do transfer learning on
-the YOLO v5 model. I hope to get a better result using this approach.
+explored waste classifier models online and used an ESP32 WIFI + Camera
+module to take pictures of different waste classes. So far, the online
+models I have found are less accurate than I want them to be. I will
+start researching how to do transfer learning on the YOLO v5 model. I
+hope to get a better result using this approach.
