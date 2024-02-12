@@ -8,7 +8,7 @@ image:
     by storyset`</a>`{=html} on Freepik'
   url: /intro.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: January 31, 2024
+pubDate: January 18, 2024
 tags:
   - home
 title: Week 13- Intro Week
