@@ -7,10 +7,10 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   include: ["src/components/**/*.astro.jsx"],
   integrations: [preact()],
-  output: "server",
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
+  // output: "server",
+  // adapter: vercel({
+  //   webAnalytics: {
+  //     enabled: true,
+  //   },
+  // }),
 });

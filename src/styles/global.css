@@ -286,6 +286,17 @@ footer .social-logo-container{
     object-fit: cover;
   }
 
+  .blog-layout-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-layout{
+    width: 60vw;
+  }
+  
+
   .blog-card{
     width: 30vw;
   }
@@ -323,9 +334,11 @@ footer .social-logo-container{
 }
 
 .blog-style img{
-  width: 80vw;
+  width: 60vw;
   height: 500px;
   object-fit: contain;
+  display: flex;
+  justify-content: center;
 }
 
 .post-name-date{
@@ -342,6 +355,8 @@ footer .social-logo-container{
     width: 80vw;
     height: auto;
     object-fit: contain;
+    display: flex;
+    justify-self: center;
   }
 
   nav .links{
