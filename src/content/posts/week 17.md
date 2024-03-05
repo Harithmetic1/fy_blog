@@ -7,7 +7,7 @@ image:
   alt: An illustration of my protoype
   url: /prototype_illustration.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: March 05, 2024
+pubDate: February 14, 2024
 tags:
   - home
 title: Week 17 -- UX and User Testing

@@ -5,6 +5,17 @@ import defaultImg from "../images/image_thumbnail.png";
 
 const { thumbnail, postTitle, postDate, postDescription, link } = Astro.props;
 
+// Create a Date object from the timestamp string
+const dateObject = new Date(postDate);
+
+// Get the month, day, and year components
+const month = dateObject.toLocaleString("default", { month: "long" });
+const day = dateObject.getDate();
+const year = dateObject.getFullYear();
+
+// Construct the formatted string
+const formattedDateString = `${month} ${day}, ${year}`;
+
 const thumbnailImg = thumbnail || defaultImg;
 ---
 
@@ -19,7 +30,7 @@ const thumbnailImg = thumbnail || defaultImg;
     <div class="post-meta">
       <p class="post-name-date">
         👨🏽‍💻 by Harith Onigemo <span class="post-date"
-          >Published: {postDate.slice(0, 10)}</span
+          >Published: {formattedDateString}</span
         >
       </p>
     </div>

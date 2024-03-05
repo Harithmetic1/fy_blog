@@ -8,7 +8,7 @@ image:
     Mourichon`</a>`{=html} on
     `<a href="https://unsplash.com/photos/a-person-sitting-at-a-table-with-a-tablet-YHNOwnrDzjY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">`{=html}Unsplash`</a>`{=html}'
   url: /week16.jpg
-pubDate: February 25, 2024
+pubDate: February 08, 2024
 layout: ../../layouts/MarkdownPostLayout.astro
 tags:
   - home

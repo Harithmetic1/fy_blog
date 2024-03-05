@@ -10,7 +10,7 @@ image:
     `<a href="https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">`{=html}Unsplash`</a>`{=html}'
   url: /academic_writing.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: February 13, 2024
+pubDate: February 02, 2024
 tags:
   - home
 title: Week 15
