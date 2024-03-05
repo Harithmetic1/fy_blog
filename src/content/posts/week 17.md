@@ -36,7 +36,7 @@ designing, I will use a 3d printer to print my designs. You can find the
 illustration of my prototype below. It is just a concept; it will not
 entirely portray the final design of the prototype, but it is a start!
 
-![](./public/week17/media/image1.jpg)
+![](../../../public/week17/media/image1.jpg)
 
 # Reflection
 
