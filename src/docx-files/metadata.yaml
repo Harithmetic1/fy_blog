@@ -1,11 +1,11 @@
 author: Harith Onigemo
-description: Week 17, we had another amazing session on UX and User testing, I shared
-  some project updates and I showed an illustration of my prototype
+description: Week 18, I created the Use Case diagram for my project and showcased
+  a 3d model for my project, I also shared some good news read till the end!
 image:
-  alt: An illustration of my protoype
-  url: /prototype_illustration.jpg
+  alt: 3d model of my robot base
+  url: /3dmodel.png
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: March 05, 2024
+pubDate: March 07, 2024
 tags:
 - home
-title: week 17
+title: week 18
