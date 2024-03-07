@@ -20,7 +20,7 @@ use case diagrams, I can explain my project easily using a visual
 prompt. I am also considering changing my bot\'s name from SpinBin to
 SortiMate; what do you think? Anyway, find my use case diagram below.
 
-![](./public/week18/media/image1.png)
+![](../../../public/week18/media/image1.png)
 
 # Project Update
 
@@ -33,7 +33,7 @@ segregate the plastic, cans and other bins.
 
 3D Modelled
 
-![](./public/week18/media/image3.jpeg)
+![](../../../public/week18/media/image3.jpeg)
 
 3D Printed.
 
@@ -41,7 +41,7 @@ The extensions will be fixed using 12mm nuts and bolts to ensure a
 sturdy base. This might make the bin heavier, but It will suffice in
 this prototype.
 
-![](./public/week18/media/image4.png)
+![](../../../public/week18/media/image4.png)
 
 In other news, I have also started purchasing the extra items I need for
 my project; I got the Arduino Uno R4 with WiFi and BT capabilities, some
@@ -49,7 +49,7 @@ servo motors, a toolbox, motion sensors, ESP32 Cam + Wifi and so on, you
 can find a picture of some of the things I ordered in the image below.
 
 ![A screenshot of a web page Description automatically
-generated](./public/week18/media/image5.png)
+generated](../../../public/week18/media/image5.png)
 
 # Reflection
 
