@@ -30,16 +30,16 @@ library and configured the model according to the documentation.
 Finally, I created a method called classify, which takes an image as a
 parameter and uses the model to make inferences.
 
-![](./public/week19/media/image1.png)
+![](../../../public/week19/media/image1.png)
 
 These are some of the results after inference:
 
-![](./public/week19/media/image2.png)
+![](../../../public/week19/media/image2.png)
 
-![](./public/week19/media/image3.png)
+![](../../../public/week19/media/image3.png)
 
 ![A table with objects on it Description automatically
-generated](./public/week19/media/image4.png)
+generated](../../../public/week19/media/image4.png)
 
 After testing the AI model, I decided to move ahead and host it via an
 API to access it from my ESP32 Cam + WIFI module or my Arduino Uno R4
