@@ -6,7 +6,7 @@ image:
   alt: Inference output from the APIodel
   url: /api_test.png
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: March 23, 2024
+pubDate: March 08, 2024
 tags:
   - home
 title: Week 20 -- Testing the AI model API
