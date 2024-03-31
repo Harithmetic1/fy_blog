@@ -1,11 +1,12 @@
 author: Harith Onigemo
-description: Week 20, I finally deployed the AI model to the cloud and tested it with
-  the ESP32, check out how iI did it!
+description: Week 21, I am focusing more on the prototype hardware this time, I have
+  figured how the sorting mechanism and designed the 3D model of the prototype check
+  it out!
 image:
-  alt: Inference output from the APIodel
-  url: /api_test.png
+  alt: Sortimate 3D Model
+  url: /sortimate.png
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: March 23, 2024
+pubDate: March 31, 2024
 tags:
 - home
-title: week 20
+title: week 21
