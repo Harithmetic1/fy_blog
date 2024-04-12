@@ -1,12 +1,11 @@
 author: Harith Onigemo
-description: Week 21, I am focusing more on the prototype hardware this time, I have
-  figured how the sorting mechanism and designed the 3D model of the prototype check
-  it out!
+description: Week 22, I created the circuits i would use in my prototype and unit
+  tested them, check out how it went.
 image:
-  alt: Sortimate 3D Model
-  url: /sortimate.png
+  alt: a picture of the camera circuit for sortimat
+  url: /cameracircuit.jpg
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: March 31, 2024
+pubDate: April 13, 2024
 tags:
 - home
-title: week 21
+title: week 22

@@ -24,7 +24,7 @@ My project targets harmful waste classes such as Plastic and Metal cans,
 according to The Alliance, 2021. Only 15% of plastic is recycled. This
 serves as a massive problem if left unchecked. You can read more about
 my project and view my Gantt Chart in my Final Proposal
-[here](https://drive.google.com/file/d/1yHoRxjNawU-gQ8ghA0o-MuM17-wjUbTj/view?usp=drive_link).
+[here](https://drive.google.com/file/d/17Fstj6kimHx15u7nbaBTWEMnrUA804FO/view?usp=sharing).
 
 Also take a look at my Work Breakdown structure below:
 
