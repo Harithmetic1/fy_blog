@@ -1,11 +1,11 @@
 author: Harith Onigemo
-description: Week 22, I created the circuits i would use in my prototype and unit
-  tested them, check out how it went.
+description: Week 23, I changed the camera system for a better solution, find out
+  why and how the new system works.
 image:
-  alt: a picture of the camera circuit for sortimat
-  url: /cameracircuit.jpg
+  alt: block diagram for new cametem
+  url: /week23thumb.png
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: April 13, 2024
+pubDate: April 30, 2024
 tags:
 - home
-title: week 22
+title: week 23
